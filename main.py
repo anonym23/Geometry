@@ -21,7 +21,7 @@ def calcDistance():
 	
 	bigFingerSize = 6
 	print('Размер большого пальца = ' + str(bigFingerSize) + ' см')
-	objectSizeProj = float(input('Размер проекции объекта = '))
+	objectSizeProj = float(input('Размер проекции объекта на плоскость большого пальца = '))
 	fromEyeToFinger = 60
 	objectRealSize = int(input('Рельная высота объекта = '))
 
